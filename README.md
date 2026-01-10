@@ -95,12 +95,19 @@ New merchant           → +15
 Total Priority Score   → 90
 
 Higher score → Higher review priority.
+----------------------------------
+5) Improvement
+*REST API (Spring Boot)
+*Database integration
+*Alert thresholds
 
 -------------------------------
+ 
+6) Technology use
 
-6) Technology Choices
-
-    Java 
+*Java
+*AI only assisted in documentation and  explanation
+   
 -----------------------------
 
 7) Project Structure
@@ -133,8 +140,15 @@ Reasons:
 - 1 previous failures
 
 ------------------------------
-  
-9) Edge Case Handling
+9)Trade-offs :
+
+Rule-based vs ML
+
+Manual tuning vs adaptability
+
+ -------------------------------------
+ 
+10) Edge Case Handling
 
 * High amount transactions are prioritized even if customer risk is low
 * Multiple small risk factors combined can still raise priority
