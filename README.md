@@ -97,16 +97,21 @@ Total Priority Score   → 90
 Higher score → Higher review priority.
 ----------------------------------
 5) Improvement
-*REST API (Spring Boot)
-*Database integration
-*Alert thresholds
+
+
+   *REST API (Spring Boot)
+
+   *Database integration
+
+   *Alert thresholds
 
 -------------------------------
  
 6) Technology use
 
-*Java
-*AI only assisted in documentation and  explanation
+   *Java
+
+   *AI only assisted in documentation and  explanation
    
 -----------------------------
 
