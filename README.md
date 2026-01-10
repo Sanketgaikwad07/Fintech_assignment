@@ -1,6 +1,6 @@
 
 
-*  Transaction Risk & Priority Engine
+**Transaction Risk & Priority Engine**
 
 
 
@@ -10,17 +10,15 @@ In real-world fintech systems, a large number of financial transactions occur ev
 Not all transactions carry the same level of risk or urgency.
 
 * Evaluates multiple transaction attributes
-* Assigns a **priority score** based on risk indicators
-* Sorts transactions so that **high-risk transactions are reviewed first**
-
+* Assigns a priority score based on risk indicators
+* Sorts transactions so that high-risk transactions are reviewed first
+-------------------------------------------------------------
 2)  Objective
 
-To build a **Transaction Risk & Priority Scoring Engine**  :
-
-* uses **human-defined rules**
-* Is **transparent and easy to explain**
+* uses human-defined rules
+* Is transparent and easy to explain
 * Handles real-world fintech risk signals
-
+--------------------------------------------------
 
 3)  Design Approach 
 
@@ -29,18 +27,15 @@ To build a **Transaction Risk & Priority Scoring Engine**  :
 * Do transactions during non-business hours need attention? → Yes
 * Should new merchants be treated cautiously? → Yes
 * Do repeated failures indicate risk? → Yes
-
+-------------------------------------------------------------
 4)  System Design Overview
 
-The system follows a **simple flow**:
 1. Each transaction is evaluated using predefined rules
-2. A **priority score** is calculated
+2. A priority score is calculated
 3. Transactions are **sorted in descending order of score**
-4. Output displays both the score and **reasons for prioritization**
-
 5)  Risk Factors & Scoring Logic
 
-* i) Transaction Amount
+ i) Transaction Amount
 
 Higher transaction amounts pose greater financial risk.
 
@@ -101,9 +96,12 @@ Total Priority Score   → 90
 
 Higher score → Higher review priority.
 
+-------------------------------
+
 6) Technology Choices
 
- Java 
+    Java 
+-----------------------------
 
 7) Project Structure
 
@@ -115,7 +113,9 @@ TransactionPriorityEngine
 
 * Create a Java project
 * Add the three files
-* Run `Main.java`
+* Run  Main.java
+
+--------------------------------
 
 8) Sample Output 
 
@@ -131,6 +131,8 @@ Reasons:
 - High risk customer
 - New merchant
 - 1 previous failures
+
+------------------------------
   
 9) Edge Case Handling
 
